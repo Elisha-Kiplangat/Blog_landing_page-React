@@ -1,0 +1,46 @@
+/* State.scss */
+
+.desc-container {
+    display: flex;
+    flex-direction: row;
+    background-image: url(../assets/bg-pattern-circles.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    padding: 4rem;
+    margin-top: 10px;
+    height: 200px;
+    background-color: #474444;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    color: rgb(219, 218, 218);
+
+    .image {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+    .desc {
+        flex: 1;
+        padding: 0 2rem;
+        text-align: left;
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 1.5;
+            margin-bottom: 1.5rem;
+        }
+    }
+}
