@@ -1,6 +1,6 @@
 
-import './App.css'
-import Nav from './components/nav'
+import './App.scss'
+import Nav from './components/Nav'
 
 function App() {
  

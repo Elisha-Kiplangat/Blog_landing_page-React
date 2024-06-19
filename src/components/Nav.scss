@@ -1,2 +1,87 @@
+header{
+    background-image: url(../assets/bg-pattern-intro-desktop.svg);
+    // background-repeat: no-repeat;
+    // background-color: #e66767;
+    height: 400px;
+
+    .nav{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+
+        .left{
+            display: flex;
+            flex-direction: row;
+        
+        .logo{
+            font-weight: bolder;
+            font-size: 300;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+
+            li{
+               align-self: center; 
+               padding: 0;
+               margin: 15px;
+            }
+        }
+        }
+    }
+
+    .sign{
+        align-self: center;
+
+        button{
+            
+            border-radius: 20px;
+            padding: 10px 20px 10px 20px;
+            margin: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        .login{
+            background: none;
+            color: white;
+            font-weight: bolder;
+        }
+        .register{
+            color: #f84444;
+            font-weight: bolder;
+        }
+    }
+
+    .intro{
+        padding: 30px;
+        h1{
+            font-size: 500;
+            font-weight: bold;
+        }
+        p{
+            font-size: larger;
+        }
+        .control{
+            button{
+                border: 1px solid white;
+                padding: 15px;
+                margin: 10px;
+                border-radius: 25px;
+                cursor: pointer;
+            }
+            .start{
+                background-color: #fff;
+                color: #f84444;
+            }
+            .more{
+                background: none;
+                color: white;
+            }
+        }
 
 
+    }
+
+}
