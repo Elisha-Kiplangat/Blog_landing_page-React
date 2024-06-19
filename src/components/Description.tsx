@@ -1,5 +1,5 @@
 import './Description.scss'
-import image from '../assets/bg-pattern-circles.svg'
+import image from '../assets/illustration-editor-desktop.svg'
 
 
 const Description = () => {

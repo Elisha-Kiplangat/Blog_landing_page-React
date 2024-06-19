@@ -3,13 +3,30 @@ header{
     background-repeat: no-repeat;
     background-position: center center;
     // background-size: cover;
+    border-bottom-left-radius: 150px;
     height: 400px;
+    width: 100%;
+    position: relative;
+
+    &::before {
+            content: '';
+            position: absolute;
+            // margin: 30px;
+            top: 0;
+            left: 0;
+            width: 100%; 
+            height: 400px;
+            background-color: rgba(243, 45, 45, 0.788); // Adjust the color and opacity as needed
+            z-index: 1; 
+            border-bottom-left-radius: 150px;
+        }
 
     .nav{
         display: flex;
         flex-direction: row;
         width: 100%;
         justify-content: space-between;
+        
 
         .left{
             display: flex;
@@ -17,7 +34,8 @@ header{
         
         .logo{
             font-weight: bolder;
-            font-size: 300;
+            font-size: 2rem;
+            z-index: 2;
         }
         ul{
             list-style: none;
@@ -28,6 +46,7 @@ header{
                align-self: center; 
                padding: 0;
                margin: 15px;
+               z-index: 2;
             }
         }
         }
@@ -35,6 +54,7 @@ header{
 
     .sign{
         align-self: center;
+        z-index: 2;
 
         button{
             
@@ -57,6 +77,8 @@ header{
 
     .intro{
         padding: 30px;
+        position: relative;
+        z-index: 2;
         h1{
             font-size: 500;
             font-weight: bold;
@@ -65,16 +87,19 @@ header{
             font-size: larger;
         }
         .control{
+            
             button{
                 border: 1px solid white;
                 padding: 15px;
                 margin: 10px;
                 border-radius: 25px;
                 cursor: pointer;
+                
             }
             .start{
                 background-color: #fff;
                 color: #f84444;
+                
             }
             .more{
                 background: none;
