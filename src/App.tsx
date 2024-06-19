@@ -1,6 +1,7 @@
 
 import './App.scss'
 import Nav from './components/Nav'
+import Description from './components/Description.tsx'
 
 function App() {
  
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
       <Nav/>
+      <Description/>
     </>
   )
 }
