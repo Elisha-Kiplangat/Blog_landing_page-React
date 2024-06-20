@@ -7,11 +7,11 @@ header{
     height: 400px;
     width: 100%;
     position: relative;
+    margin: 10px;
 
     &::before {
             content: '';
             position: absolute;
-            // margin: 30px;
             top: 0;
             left: 0;
             width: 100%; 
@@ -36,6 +36,7 @@ header{
             font-weight: bolder;
             font-size: 2rem;
             z-index: 2;
+            margin-left: 20px;
         }
         ul{
             list-style: none;

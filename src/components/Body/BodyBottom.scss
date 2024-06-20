@@ -1,0 +1,43 @@
+
+
+.bottom-section {
+    background-image: '../../assets/bg-pattern-circles.svg';
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    padding: 4rem;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+
+    .image {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+    .content {
+        flex: 1;
+        padding: 0 2rem;
+        text-align: left;
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: black;
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 1.5;
+            margin-bottom: 1.5rem;
+            color: black;
+        }
+    }
+}
