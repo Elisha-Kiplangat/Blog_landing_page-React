@@ -1,4 +1,5 @@
 import './Nav.scss'
+import image from '../assets/icon-hamburger.svg'
 
 function Nav() {
   return (
@@ -13,6 +14,8 @@ function Nav() {
             <li>Connect</li>
           </ul>
         </div>
+        
+          <img src={image} alt="" className='hamburger' />
         <div className="sign">
           <button className='login'>Login</button>
           <button className='register'>Sign Up</button>
